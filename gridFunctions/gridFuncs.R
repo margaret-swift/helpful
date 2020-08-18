@@ -160,6 +160,7 @@ sfPointsInPoly <- function(points, sf, col) {
 
 ################################################################################
 # Usage
+pacman::p_load('sf')
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # Map params should be appropriate for your data
